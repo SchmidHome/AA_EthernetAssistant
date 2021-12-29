@@ -1,20 +1,17 @@
 {
-    "name": "AA_TEMPLATE",
-    "version": "1.0.0",
-    "description": "TEMPLATE",
-    "keywords": "assistance, TEMPLATE",
+    "name": "AA_EthernetAssistant",
+    "version": "1.0.1",
+    "description": "EthernetAssistant",
+    "keywords": "assistance, EthernetAssistant",
     "authors": {
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SchmidHome/AA_TEMPLATE.git"
+        "url": "https://github.com/SchmidHome/AA_EthernetAssistant.git"
     },
     "dependencies": [{
         "name": "AA_ArduinoAssistance",
         "version": "https://github.com/SchmidHome/AA_ArduinoAssistance.git"
-    }, {
-        "name": "Timer",
-        "version": "https://github.com/SchmidHome/Timer.git"
     }],
     "license": "MIT",
     "frameworks": "Arduino",
