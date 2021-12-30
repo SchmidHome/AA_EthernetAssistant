@@ -9,6 +9,9 @@ class EthernetAssistant : public Assistant {
 
     Client& get_client() { return client; }
 
+    int available() { return client.available(); };
+    uint8_t connected() { return client.connected(); };
+
    private:
     Client& client;
 };
