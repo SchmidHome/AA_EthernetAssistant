@@ -5,13 +5,10 @@
 
 class EthernetAssistant : public Assistant {
    public:
-    EthernetAssistant(Client& client);
 
-    Client& get_client() const { return client; }
+    virtual bool connected() const = 0;
 
-    int available() const { return client.available(); };
-    uint8_t connected() const { return client.connected(); };
+    // create new client and return it, has to be deleted by caller
+    virtual Client* create_client() const = 0;
 
-   private:
-    Client& client;
 };
